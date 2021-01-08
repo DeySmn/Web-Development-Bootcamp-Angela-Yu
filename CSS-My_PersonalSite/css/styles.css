@@ -1,0 +1,160 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /* font-size: 16px == 100% == 1em | 1M == 1rem( CSS3 -recommended to use it); */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  /*  line-height: 2; */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /*  font-weight: normal; */
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-width: 0;
+  border-top-width: 6px;
+  width: 4%;
+  border-style: dotted;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 200px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile-img {
+  border-radius: 100%;
+  height: 180px;
+  width: 180px;
+  /*  margin-top: 20px; */
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.intro {
+  margin: auto;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*
+.computer-skill-description1{
+  clear: left;
+}
+.chilli-skill-description2{
+  clear: right;
+}
+*/
+.contact-des {
+  margin: 40px auto 60px;
+}
+
+.footer-txt {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 10px 0 20px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  line-height: 2;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #11cdd4 5%, #3381ed 100%);
+  background-color: #11cdd4;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+  background-color: #30e3cb;
+}
